@@ -10,7 +10,7 @@ import { Status } from "./components/Status";
 
 function App() {
   const personName = {
-    first: "Meh",
+    first: "Mehdi",
     last: "Qor",
   };
 
