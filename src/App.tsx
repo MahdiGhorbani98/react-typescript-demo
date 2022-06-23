@@ -1,11 +1,8 @@
-import { User } from "./components/context/User";
-import { UserContextProvider } from "./components/context/UserContext";
-import { DomRef } from "./components/ref/DomRef";
-import { MutableRef } from "./components/ref/MutableRef";
+import { Private } from "./components/auth/Private";
+import { Profile } from "./components/auth/Profile";
 
 function App() {
-  // return <DomRef />;
-  return <MutableRef />;
+  return <Private isLoggedin={true} component={Profile} />;
 }
 
 export default App;
