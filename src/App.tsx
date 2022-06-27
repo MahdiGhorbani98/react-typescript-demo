@@ -1,7 +1,16 @@
-import { RandomNumber } from "./components/restricting/RandomNumber";
+import { CustomButton } from "./components/html/Button";
 
 function App() {
-  return <RandomNumber value={11} isPositive />;
+  return (
+    <CustomButton
+      variant="primary"
+      onClick={() => {
+        console.log("clicked");
+      }}
+    >
+      Primary Button
+    </CustomButton>
+  );
 }
 
 export default App;
